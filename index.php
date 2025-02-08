@@ -1,8 +1,8 @@
 <?php
 
 // Start a session
-// session_start();
+session_start();
 
-// $title = "Home";
+$title = "Home";
 
-// include_once "views/home.view.php";
+include_once "views/home.view.php";
