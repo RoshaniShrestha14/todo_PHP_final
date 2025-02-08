@@ -22,9 +22,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   // Validate the password
-  // if (empty($password)) {
-  //   $errors['password'] = "Password is required";
-  // }
+  if (empty($password)) {
+    $errors['password'] = "Password is required";
+  }
 
   // if (empty($errors)) {
   //   $db = new Database($config['database']);
